@@ -1,0 +1,20 @@
+{
+  "name": "root-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm start",
+    "update": "rm -rf node_modules/ package-lock.json && ncu -u && npm install",
+    "init": "npm install && cd client && npm install && cd .. && cd server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.120.6",
+    "@react-three/fiber": "^8.17.10",
+    "request": "^2.88.2",
+    "three": "^0.172.0"
+  }
+}

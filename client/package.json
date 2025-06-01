@@ -1,0 +1,71 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@radix-ui/react-label": "^2.1.1",
+    "@react-three/drei": "^9.120.6",
+    "@react-three/fiber": "^8.17.12",
+    "@tabler/icons-react": "^3.27.1",
+    "@vercel/analytics": "^1.5.0",
+    "antd": "^5.23.0",
+    "axios": "^1.7.9",
+    "clsx": "^2.1.1",
+    "cra-template": "1.2.0",
+    "framer-motion": "^11.16.0",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.469.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "monaco-editor": "^0.52.2",
+    "radix-ui": "^1.0.1",
+    "react": "^18.3.1",
+    "react-avatar": "^5.0.3",
+    "react-dom": "^18.3.1",
+    "react-file-icon": "^1.6.0",
+    "react-markdown": "^9.0.3",
+    "react-pro-sidebar": "^1.1.0",
+    "react-resizable": "^3.0.5",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "react-split": "^2.0.14",
+    "react-syntax-highlighter": "^15.6.1",
+    "remark-gfm": "^4.0.1",
+    "socket.io-client": "^4.8.1",
+    "styled-components": "^6.1.15",
+    "tailwind-merge": "^2.6.0",
+    "three": "^0.172.0",
+    "three-globe": "^2.40.1",
+    "uuid": "^11.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "update": "rm -rf node_modules/ package-lock.json && ncu -u && npm install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
