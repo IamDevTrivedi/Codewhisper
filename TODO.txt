@@ -1,0 +1,2 @@
+add can add more themes to the monaco editor
+the prettier of the document > window is only formatting web based languages like javascript, html, css, etc.

@@ -290,8 +290,17 @@ export default function CodeRoom() {
 
     // TODO : format the code of the editor
     const handleCodeFormat = () => {
-    }
+        const unformattedCode = editorState.editorCodeContent;
+        const formattedCode = window.prettier.format(unformattedCode, {
+            parser: "babel",
+            plugins: window.prettierPlugins
+        });
 
+        setEditorState((prev) => ({
+            ...prev,
+            editorCodeContent: formattedCode
+        }));
+    };
 
 
     // leave the room
