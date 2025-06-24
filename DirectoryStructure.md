@@ -3,7 +3,7 @@
 
 ```
 Directory structure:
-└── iamdevtrivedi-woc_react_202301150/
+└── IamDevTrivedi/Codewhisper/
     ├── README.md
     ├── Directory structure.md
     ├── LICENSE.md

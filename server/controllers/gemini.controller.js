@@ -37,6 +37,7 @@ const geminiController = {
         }
     },
 
+    // NOTE: this is not in use ,just made out there
     getFileResponse: async (req, res) => {
 
         logger.post("/api/gemini/ask-file");

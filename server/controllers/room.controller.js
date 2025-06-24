@@ -39,8 +39,6 @@ const roomController = {
 
 
             const selectedLanguage = languages.find(lang => lang.roomLanguage === roomLanguage);
-            logger.debug(roomLanguage);
-            logger.debug(JSON.stringify(selectedLanguage, null, 2));
 
             const newRoom = new Room({
                 roomName,
