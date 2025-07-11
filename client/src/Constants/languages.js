@@ -20,13 +20,13 @@ const languages = [
         "extension": ".java",
         "helloWorld": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
     },
-    {
-        "roomLanguage": "Python",
-        "codeLanguage": "python3",
-        "editorLanguage": "python",
-        "extension": ".py",
-        "helloWorld": "print(\"Hello, World!\")"
-    },
+    // {
+    //     "roomLanguage": "Python",
+    //     "codeLanguage": "python3",
+    //     "editorLanguage": "python",
+    //     "extension": ".py",
+    //     "helloWorld": "print(\"Hello, World!\")"
+    // },
     {
         "roomLanguage": "JavaScript",
         "codeLanguage": "javascript",
@@ -97,13 +97,13 @@ const languages = [
         "extension": ".ts",
         "helloWorld": "console.log(\"Hello, World!\");"
     },
-    {
-        "roomLanguage": "SQL (MySQL)",
-        "codeLanguage": "mysql",
-        "editorLanguage": "sql",
-        "extension": ".sql",
-        "helloWorld": "SELECT 'Hello, World!';"
-    },
+    // {
+    //     "roomLanguage": "SQL (MySQL)",
+    //     "codeLanguage": "mysql",
+    //     "editorLanguage": "sql",
+    //     "extension": ".sql",
+    //     "helloWorld": "SELECT 'Hello, World!';"
+    // },
     {
         "roomLanguage": "SQL (PostgreSQL)",
         "codeLanguage": "postgresql",
@@ -111,13 +111,13 @@ const languages = [
         "extension": ".sql",
         "helloWorld": "SELECT 'Hello, World!';"
     },
-    {
-        "roomLanguage": "SQL (SQLite)",
-        "codeLanguage": "sqlite",
-        "editorLanguage": "sql",
-        "extension": ".sql",
-        "helloWorld": "SELECT 'Hello, World!';"
-    },
+    // {
+    //     "roomLanguage": "SQL (SQLite)",
+    //     "codeLanguage": "sqlite",
+    //     "editorLanguage": "sql",
+    //     "extension": ".sql",
+    //     "helloWorld": "SELECT 'Hello, World!';"
+    // },
     {
         "roomLanguage": "Markdown",
         "codeLanguage": "markdown",
