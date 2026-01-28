@@ -73,12 +73,6 @@ app.use("/api/user", userRoutes);
 app.use("/api/room", roomRoutes);
 app.use("/api/gemini", geminiRoutes);
 
-// Backend Self Ping: to keep the server warm on render
-setInterval(async () => {
-  const response = await fetch(`${BACKEND_URL}/api/health`);
-  logger.ping("Ping Testing made At: ", new Date().toLocaleString());
-}, 1000 * 60 * 5); // 5 minutes
-
 // Server initialization
 server.listen(PORT, () => {
   logger.info(`✅ Server running on port ${PORT}`);
